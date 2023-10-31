@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.city{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    background: lightblue;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+form{
+    display: flex;
+}
+
+.cityButton{
+width: 25%;
+border-radius: 0px 10px 10px 0px ;
+border: none;
+background-color: blue;
+color: white;
+font-size: 18px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.temperature{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.details div{
+    background: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ @media (max-width:768px) {
+    .details div{
+        width: 100%;
+    }
+ }
