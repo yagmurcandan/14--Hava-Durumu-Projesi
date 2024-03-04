@@ -8,7 +8,8 @@
 
 
 
-*Yazım hatalarına karşı duyarlı olacak şekilde geliştirilmiştir..*
+
+*It has been developed to be sensitive to spelling errors..*
 
 
 ![Screenshot_2](https://github.com/yagmurcandan/Weather_Project/assets/140507776/d11e99f3-b6bd-4f08-8c09-2a41c6cf70c3)
